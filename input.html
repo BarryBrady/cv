@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>HTML input</title>
+  </head>
+  <body>
+    <form method="post">
+      <div>
+        <label>Text input:</label>
+        <input type="text" />
+        <input type="submit" />
+      </div>
+      <hr />
+      <div>
+        <label>Checkbox:</label>
+        <input type="checkbox" />
+      </div>
+      <hr />
+      <div>
+        <label>Password:</label>
+        <input type="password" />
+        <input type="button" value="Submit password" />
+      </div>
+      <hr />
+      <div>
+        <label>Color Picker RGB wheel</label>
+        <input type="color" />
+      </div>
+      <hr />
+      <div>
+        <label>Date Picker</label>
+        <input type="date" />
+      </div>
+      <hr />
+      <div>
+        <label>date & Time Local</label>
+        <input type="datetime-local" />
+      </div>
+      <hr />
+      <div>
+        <label>email: </label>
+        <input type="email" pattern=".+@globex\.com" />
+        <input type="submit" />
+      </div>
+      <hr />
+      <div>
+        <label>File: </label>
+        <input type="file" />
+      </div>
+      <hr />
+      <div>
+        <label>Hidden: </label>
+        <input type="hidden" />
+      </div>
+      <hr />
+      <div>
+        <label>Month: </label>
+        <input type="month" />
+      </div>
+      <hr />
+      <div>
+        <label>number: </label>
+        <input type="number" />
+      </div>
+      <hr />
+      <legend>Radio Example - Select a Singer Song writter:</legend>
+      <div>
+        <input type="radio" id="tems" name="singer" value="Tems" />
+        <label>Tems</label>
+      </div>
+      <div>
+        <input type="radio" id="Brent" name="singer" value="Brent" />
+        <label>Brent</label>
+      </div>
+      <div>
+        <input type="radio" id="Chase" name="singer" value="Chase" />
+        <label>Chase</label>
+      </div>
+      <input type="submit" />
+      <hr />
+      <div>
+        <input type="range" min="10" max="100" />
+        <label>Range: </label>
+      </div>
+      <hr />
+      <div>
+        <label>Reset </label>
+        <input type="text" />
+        <input type="reset" value="Reset" />
+      </div>
+      <hr />
+      <div>
+        <label>Search </label>
+        <input type="search" />
+      </div>
+      <hr />
+      <div>
+        <label for="phone">Tel</label>
+        <input
+          type="tel"
+          id="phone"
+          name="phone"
+          pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+        />
+      </div>
+      <hr />
+      <div>
+        <label>text</label>
+        <input type="text" />
+      </div>
+      <hr />
+      <div>
+        <label for="appt">Time:</label>
+
+        <input
+          type="time"
+          id="appt"
+          name="appt"
+          min="09:00"
+          max="18:00"
+          required
+        />
+      </div>
+      <hr />
+      <div>
+        <label for="url">Enter an https:// URL:</label>
+
+        <input
+          type="url"
+          name="url"
+          id="url"
+          placeholder="https://example.com"
+          pattern="https://.*"
+          size="30"
+          required
+        />
+      </div>
+      <hr />
+      <div>
+        <label for="week">week:</label>
+
+        <input
+          type="week"
+          name="week"
+          id="camp-week"
+          min="2018-W18"
+          max="2018-W26"
+          required
+        />
+      </div>
+    </form>
+  </body>
+</html>
